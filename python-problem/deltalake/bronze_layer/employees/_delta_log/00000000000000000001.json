@@ -1,0 +1,2 @@
+{"remove":{"path":"0-0598cd69-b0da-4913-9797-60c416397a85-0.parquet","deletionTimestamp":1697759051452,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{},"size":1672}}
+{"commitInfo":{"timestamp":1697759051452,"operation":"DELETE","operationParameters":{"predicate":"join_date = '2018-08-23'"},"clientVersion":"delta-rs.0.17.0"}}
