@@ -323,7 +323,7 @@ metl ingest --layer_name bronze_layer --model_name employees --full_refresh
 ```
 3. Ingest `timesheets.csv` incrementally or full refresh
 ```
-metl ingest --layer_name bronze_layer --model_name employees --start_time 2023-10-20
+metl ingest --layer_name bronze_layer --model_name timesheets --start_time 2023-10-20
 ```
 4. As a way to test the idempotency, you can run it multiple times and check the result row counts. You can execute a simple cli query to check the shape of the table
 ```
